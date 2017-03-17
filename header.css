@@ -1,0 +1,74 @@
+.content {
+    width: 100%!important;
+}
+
+.mainSection {
+    width: 100%;
+}
+
+.sections {
+    float: left;
+}
+
+.section1 .round {
+    position: relative;
+    top: -20px;
+    height: 170px;
+    float: left;
+}
+
+.section3-right {
+    float: right;
+    position: relative;
+    left: 15px;
+    top: -5px;
+    width: 50%;
+}
+
+.section3-left {
+    float: right;
+    position: relative;
+    top: 30px;
+    left: 40px;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+.rightLogo {
+    height: 100%;
+    width: 100%;
+}
+
+.header .bg {
+    border: 5px solid #dc2182;
+}
+
+.logoTitle {
+    height: 100%;
+    margin-top: 20px;
+}
+
+.flashNews {
+    float: right;
+}
+
+.bottomSection3 {
+    padding-top: 5px;
+}
+
+.bottomSection3 a {
+    color: #fff;
+}
+
+@media screen and (max-width: 905px) {
+    .section3-left {
+        position: relative;
+        top: -55px;
+        left: -40px;
+    }
+    .bottomSection3 a {
+        position: relative;
+        top: -50px;
+    }
+}
